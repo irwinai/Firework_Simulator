@@ -81,7 +81,7 @@ const stages = [trailsStage, mainStage];
 const randomWords = ["小月我爱你", "小月要快乐呀","小月我想你","小月新年快乐","小月要努力加油哦"];
 const wordDotsMap = {};
 randomWords.forEach((word) => {
-	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "70px");
+	wordDotsMap[word] = MyMath.literalLattice(word, 3, "Gabriola,华文琥珀", "60px");
 });
 
 // 自定义背景
